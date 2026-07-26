@@ -9,7 +9,7 @@ function getPrice() {
   // Orders reads response.price (now undefined) and assumes dollars, so totals are wrong
   // in two independent ways. Fixing this needs BOTH repos: pricing must restore the
   // contract field and declare its unit; orders must honour that unit.
-  return { amount: 10000 };
+  return { price: 10000, unit: "cents" };
 }
 module.exports = { getPrice };
 
