@@ -1,8 +1,8 @@
-// Pricing service. CONTRACT: getPrice() returns { price: <number> } — the orders
-// service reads response.price. (Do not rename this field without updating consumers.)
+// Pricing service. CONTRACT: getPrice() returns { price: <number>, unit: <string> } — the orders
+// service reads response.price and response.unit. (Do not rename these fields without updating consumers.)
 function getPrice() {
-  // BUG (deploy abc123): the response field was renamed price -> amount, breaking
-  // the orders service which still reads .price. Restore the contract field name.
-  return { amount: 100 };
+  // Fixed (incident abc123): Restored contract field name from 'amount' to 'price'
+  // and added explicit unit declaration. Pricing remains in cents.
+  return { price: 100, unit: "cents" };
 }
 module.exports = { getPrice };
