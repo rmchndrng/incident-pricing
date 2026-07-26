@@ -3,9 +3,13 @@
 const http = require('http');
 
 function getPrice() {
-  // BUG (deploy abc123): the response field was renamed price -> amount, breaking
-  // the orders service which still reads .price. Restore the contract field name.
-  return { amount: 100 };
+  // BUG (deploy def456): TWO breaking changes shipped together —
+  //   1. the response field was renamed price -> amount, and
+  //   2. the value switched from dollars to MINOR UNITS (cents) with no unit declared.
+  // Orders reads response.price (now undefined) and assumes dollars, so totals are wrong
+  // in two independent ways. Fixing this needs BOTH repos: pricing must restore the
+  // contract field and declare its unit; orders must honour that unit.
+  return { amount: 10000 };
 }
 module.exports = { getPrice };
 
