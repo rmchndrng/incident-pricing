@@ -1,0 +1,13 @@
+{
+  "port": 3001,
+  "workdir": "/workspace",
+  "modes": {
+    "prod": {
+      "build": "",
+      "swap": null,
+      "start": "node index.js",
+      "stop": "pkill -TERM -f 'node index.js'",
+      "health": "GET /health"
+    }
+  }
+}
