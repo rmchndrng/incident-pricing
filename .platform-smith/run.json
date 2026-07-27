@@ -3,9 +3,10 @@
   "workdir": "/workspace",
   "modes": {
     "prod": {
+      "build": "npm install",
       "swap": null,
       "start": "node index.js",
-      "stop": "SIGTERM",
+      "stop": "pkill -TERM -f 'node .*index.js'",
       "health": "GET /health"
     }
   }
