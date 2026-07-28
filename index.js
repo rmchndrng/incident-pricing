@@ -3,9 +3,9 @@
 const http = require('http');
 
 function getPrice() {
-  // BUG (deploy abc123): the response field was renamed price -> amount, breaking
-  // the orders service which still reads .price. Restore the contract field name.
-  return { amount: 100 };
+  // Contract field name restored. Unit is explicitly declared as 'cents' (minor units).
+  // The 100 represents $1.00 in cents.
+  return { price: 100, unit: 'cents' };
 }
 module.exports = { getPrice };
 
