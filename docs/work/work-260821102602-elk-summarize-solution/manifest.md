@@ -5,7 +5,8 @@
 **Goal**: Summarize the pricing solution components in this repository
 
 ## Status
-In progress - requirements phase
+In progress - planning phase completed (ceremony: collapsed)
 
 ## Artifacts
-- (None yet)
+- requirements/0001-summarize-solution-req.md - Requirements specification
+- plans/phase-1.md - Implementation plan
