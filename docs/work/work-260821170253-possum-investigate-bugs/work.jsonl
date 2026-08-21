@@ -1,1 +1,4 @@
 {"ts":"2026-08-21T17:04:26Z","type":"created","title":"Investigate pricing bugs","project":"incident-pricing","run_label":"260821170253-possum","work_ref":"work-260821170253-possum-investigate-bugs"}
+{"ts":"2026-08-21T17:04:43Z","type":"status_changed","to":"requirements"}
+{"ts":"2026-08-21T17:06:12Z","type":"artifact_added","kind":"requirements","path":"docs/work/work-260821170253-possum-investigate-bugs/requirements/0001-investigate-bugs-req.md","title":"Investigation findings: no bugs found"}
+{"ts":"2026-08-21T17:06:13Z","type":"phase_done","phase":"requirements","project":"incident-pricing"}
