@@ -1,1 +1,5 @@
 {"ts":"2026-08-21T13:39:13Z","type":"created","title":"Bug check - pricing service","project":"incident-pricing","run_label":"260821133013-koala","work_ref":"work-260821133013-koala-bug-check"}
+{"ts":"2026-08-21T13:39:27Z","type":"push_failed","note":"CP1 push failed: git credential helper issue"}
+{"ts":"2026-08-21T13:39:34Z","type":"status_changed","to":"requirements"}
+{"ts":"2026-08-21T13:40:47Z","type":"artifact_added","kind":"requirements","path":"docs/work/work-260821133013-koala-bug-check/requirements/0001-bug-check-req.md","title":"Bug check requirements"}
+{"ts":"2026-08-21T13:40:48Z","type":"phase_done","phase":"requirements","project":"incident-pricing"}
