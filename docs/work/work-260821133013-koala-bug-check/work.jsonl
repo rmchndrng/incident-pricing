@@ -6,3 +6,6 @@
 {"ts":"2026-08-21T13:46:12Z","type":"status_changed","to":"planning"}
 {"ts":"2026-08-21T13:46:57Z","type":"artifact_added","kind":"plan","path":"docs/work/work-260821133013-koala-bug-check/plans/phase-1.md","title":"Bug fix implementation plan"}
 {"ts":"2026-08-21T13:46:58Z","type":"phase_done","phase":"planning","project":"incident-pricing"}
+{"ts":"2026-08-21T13:47:25Z","type":"status_changed","to":"implementation"}
+{"ts":"2026-08-21T13:48:04Z","type":"artifact_added","kind":"implementation","path":"docs/work/work-260821133013-koala-bug-check/implementation/status.md","title":"Bug fix implementation status"}
+{"ts":"2026-08-21T13:48:05Z","type":"phase_done","phase":"implementation","project":"incident-pricing"}
