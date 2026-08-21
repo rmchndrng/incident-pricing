@@ -8,3 +8,6 @@
 {"ts":"2026-08-21T17:09:15Z","type":"status_changed","to":"implementation"}
 {"ts":"2026-08-21T17:09:29Z","type":"artifact_added","kind":"implementation","path":"docs/work/work-260821170253-possum-investigate-bugs/implementation/status.md","title":"Investigation conclusion: no bugs found"}
 {"ts":"2026-08-21T17:09:30Z","type":"phase_done","phase":"implementation","project":"incident-pricing"}
+{"ts":"2026-08-21T17:13:02Z","type":"status_changed","to":"validation"}
+{"ts":"2026-08-21T17:13:17Z","type":"artifact_added","kind":"validation","path":"docs/work/work-260821170253-possum-investigate-bugs/implementation/validation.md","title":"Validation results: all checks passed"}
+{"ts":"2026-08-21T17:13:18Z","type":"phase_done","phase":"validation","project":"incident-pricing"}
