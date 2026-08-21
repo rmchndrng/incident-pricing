@@ -9,3 +9,6 @@
 {"ts":"2026-08-21T11:02:12Z","type":"artifact_added","kind":"implementation","path":"docs/work/work-260821102602-elk-summarize-solution/implementation/pricing-summary.md","title":"Pricing service solution summary"}
 {"ts":"2026-08-21T11:02:16Z","type":"artifact_added","kind":"implementation","path":"docs/work/work-260821102602-elk-summarize-solution/implementation/status.md","title":"Implementation status record"}
 {"ts":"2026-08-21T11:02:20Z","type":"phase_done","phase":"implementation","project":"incident-pricing"}
+{"ts":"2026-08-21T11:02:55Z","type":"status_changed","to":"validation"}
+{"ts":"2026-08-21T11:04:00Z","type":"artifact_added","kind":"validation","path":"docs/work/work-260821102602-elk-summarize-solution/implementation/validation.md","title":"Validation report"}
+{"ts":"2026-08-21T11:04:17Z","type":"phase_done","phase":"validation","project":"incident-pricing"}
