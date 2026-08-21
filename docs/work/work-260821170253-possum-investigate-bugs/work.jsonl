@@ -2,3 +2,6 @@
 {"ts":"2026-08-21T17:04:43Z","type":"status_changed","to":"requirements"}
 {"ts":"2026-08-21T17:06:12Z","type":"artifact_added","kind":"requirements","path":"docs/work/work-260821170253-possum-investigate-bugs/requirements/0001-investigate-bugs-req.md","title":"Investigation findings: no bugs found"}
 {"ts":"2026-08-21T17:06:13Z","type":"phase_done","phase":"requirements","project":"incident-pricing"}
+{"ts":"2026-08-21T17:07:07Z","type":"status_changed","to":"planning"}
+{"ts":"2026-08-21T17:07:18Z","type":"artifact_added","kind":"plan","path":"docs/work/work-260821170253-possum-investigate-bugs/plans/phase-1.md","title":"Documentation-only implementation plan"}
+{"ts":"2026-08-21T17:07:19Z","type":"phase_done","phase":"planning","project":"incident-pricing"}
